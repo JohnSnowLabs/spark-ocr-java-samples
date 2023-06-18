@@ -29,7 +29,7 @@ public class SkewCorrectionSample {
 
 	        ImageToText ocr = new ImageToText();
 	        ocr.setInputCol("image");
-    	    ocr.setOutputCol("text");
+	        ocr.setOutputCol("text");
 
 	        Pipeline pipeline = new Pipeline();
 	        pipeline.setStages(new PipelineStage[] {
